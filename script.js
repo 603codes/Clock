@@ -28,7 +28,7 @@ setInterval(() => {
 alarm_h3 = document.getElementById("alarm_h3")
 alarm_btn = document.getElementById("alarm_btn")
 alarm_stop = document.getElementById("alarm_btn_stop")
-var audio = new Audio('audio.mp3')
+var audio = new Audio('assets/audio.mp3')
 
 alarm_btn.addEventListener("click", () => {
     // Always only have 1 to 12 alarm rings on both
