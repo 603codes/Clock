@@ -4,9 +4,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>603's Clock and Alarm</h1>
+        <h1>603's <br> Clock and Alarm</h1>
+        
         <div id="clock">
-            <div id="circle"></div>
+            
+            <!-- <div id="circle"></div> -->
             <div class="hands" id="hour"></div>
             <div class="hands" id="min"></div>
             <div class="hands" id="sec"></div>
@@ -14,11 +16,15 @@
         </div>
         <div id="alarm-box">
             <h3 id="alarm_h3">Set an Alarm</h3>
-            <label for="alarm-time">Time:</label>
+            <div id="mainSet">
+                 <label for="alarm-time">Time:</label>
             <input type="time" name="alarm-time" id="alarm-time">
             <button id="alarm_btn">Set Alarm</button>
             <button id="alarm_btn_stop" style="display: none;">Stop Alarm</button>
+            </div>
+           
         </div>
         <script src="script.js"></script>
     </body>
+    
 </html>
