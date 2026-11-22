@@ -21,7 +21,7 @@ This is a web app which shows analog clock model, and it also allows users to se
 3. Open `index.html` in your browser
 
 ## Demo
-https://github.io/603codes/Clock
+https://603codes.github.io/Clock/
 
 ## Made by
 Sulav Poudel
